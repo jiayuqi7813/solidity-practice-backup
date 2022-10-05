@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_person",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_summary",
+						"type": "string"
+					}
+				],
+				"name": "addCharacter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_person",
+						"type": "address"
+					}
+				],
+				"name": "isCharacter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_person",
+						"type": "address"
+					}
+				],
+				"name": "removeCharacter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_person",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_summary",
+						"type": "string"
+					}
+				],
+				"name": "resetCharacter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anli/marriage/character.sol": "Character"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anli/marriage/character.sol": {
+			"keccak256": "0xccff45593d753f9a11732490409695f76f4b65d2675a8e9096168ce297ac637f",
+			"urls": [
+				"bzz-raw://dd0dff2cc347cf3e57ea9e47f2f51a08425ac903c7084ff27d3be8118e4e39ed",
+				"dweb:/ipfs/QmXtnqZvwfkoBmgfcWQPeRKBSWduMebhRrSYed5enwkiyc"
+			]
+		},
+		"anli/marriage/role.sol": {
+			"keccak256": "0x9aacad529896a043b0339333fac14200b35b9bf92498eff8060a7d2ec5eacbc9",
+			"urls": [
+				"bzz-raw://2868f3090ba95d661d91d411bb55158221d7757ace162b27ee0b1de6b635f87e",
+				"dweb:/ipfs/QmZNaRQCUDZoFKGfaPzqK1pRU9BKfF947XxRvhsXVokR5e"
+			]
+		}
+	},
+	"version": 1
+}

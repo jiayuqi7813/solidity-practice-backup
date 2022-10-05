@@ -1,0 +1,183 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_evi",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_key",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					}
+				],
+				"name": "NewEvidence",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_key",
+						"type": "string"
+					}
+				],
+				"name": "getEvidence",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_key",
+						"type": "string"
+					}
+				],
+				"name": "isAllSigned",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_evi",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_key",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_a",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_b",
+						"type": "address"
+					}
+				],
+				"name": "newMarriageEvidence",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_key",
+						"type": "string"
+					}
+				],
+				"name": "sign",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anli/marriage/factory.sol": "EvidenceFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anli/marriage/evidence.sol": {
+			"keccak256": "0xa8f3b293148b450a377a107926c57275f2ffa0c48fdbe495d3ca06a0158df88b",
+			"urls": [
+				"bzz-raw://1316a42716f9879cc98fec8d147d2fad793b36b222af2fb961083a5784538c8c",
+				"dweb:/ipfs/QmfUsEsDNDHxv8oo8CroKmVCCZvPd7q7yeZ8AnJUsd9VYV"
+			]
+		},
+		"anli/marriage/factory.sol": {
+			"keccak256": "0x6ac6018565dcb76d250f3e227527c44aa7d4aa4e57484b427a3f37b0106eb541",
+			"urls": [
+				"bzz-raw://dd203a6a37e6b8d58c31aef2eb00ca2061e8ea5b0058e34bd5ac1483ff5b1a92",
+				"dweb:/ipfs/Qma8Se6yNrEhU3Jn3x3fbin3AhZNSGZ4zQMtDe6gWggU9F"
+			]
+		}
+	},
+	"version": 1
+}

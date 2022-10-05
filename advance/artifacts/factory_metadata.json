@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllCars",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_val",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_ver",
+						"type": "string"
+					}
+				],
+				"name": "product",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"advance/08-factory.sol": "factory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"advance/08-factory.sol": {
+			"keccak256": "0x5a4927a78f2739067e00da285fbb936e0bfbd938b0d6a53a9b2164e08a3ef355",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0f9b888a64b81d61ee4b362f4b84a1d4f46bec1b0e0a8562bf492911aa59533",
+				"dweb:/ipfs/QmdmrSNaXzfrUDGXi5HD8mc4CEH31mUkTthRNpdMQ95ggp"
+			]
+		}
+	},
+	"version": 1
+}

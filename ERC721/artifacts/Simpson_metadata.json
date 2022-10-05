@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "is2D",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "skinColor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC721/ERC165.sol": "Simpson"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC721/ERC165.sol": {
+			"keccak256": "0x293778df1e62ab20dd880ed77b3fc5ffd499ec69e7af7a6fb7771496f81c617f",
+			"urls": [
+				"bzz-raw://02491157709530b4504d21da3993faeea9db4b93992b24a86960d3eb7a1e3345",
+				"dweb:/ipfs/QmWCtKTanjDuMAWRod1GyALbTcjgvS7jQFgjx2U6obALwq"
+			]
+		},
+		"ERC721/IERC165.sol": {
+			"keccak256": "0xd25130af32917ec2469d7a7e79816a240124529d9da5f9850cdd7c869e378e2f",
+			"urls": [
+				"bzz-raw://60df2972ffa408eeee06cc736b058ad274a606ec4efeab1c6998dcc4c1910c8d",
+				"dweb:/ipfs/QmXG8yGs7BNoSWxyb5mmAmUuawTcmHMm9gVB7DUY8LX1Py"
+			]
+		}
+	},
+	"version": 1
+}

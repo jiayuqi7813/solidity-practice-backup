@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_point",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"advance/10-iterator.sol": "mapping_iterator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"advance/10-iterator.sol": {
+			"keccak256": "0x86183e98cd55f4ff1e27ea90a8b9e48abb67ad596681ea5c61ab2ede0cb0b783",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://727d449ee9677a1131ee1919cf52deb352d5dd09b934b4e8f5b707172e55ed1b",
+				"dweb:/ipfs/QmWALBwWZqjvWduD9dfBMisCTLrVSG6UfKd6u2Y35N7wf8"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,263 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					}
+				],
+				"name": "NewCateGory",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "calCategory",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_remark",
+						"type": "string"
+					}
+				],
+				"name": "changeStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					}
+				],
+				"name": "getCategory",
+				"outputs": [
+					{
+						"internalType": "contract Category",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "getTraceInfo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "operator",
+								"type": "address"
+							},
+							{
+								"internalType": "uint8",
+								"name": "status",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "remark",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Goods.TraceData[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					}
+				],
+				"name": "newCategory",
+				"outputs": [
+					{
+						"internalType": "contract Category",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "newGoods",
+				"outputs": [
+					{
+						"internalType": "contract Goods",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"anli/trace/tracefactory.sol": "TraceFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"anli/trace/category.sol": {
+			"keccak256": "0x034b1902036983c5f1e498644c63abe7bff0386ab4bea6855b5ef68de473500f",
+			"urls": [
+				"bzz-raw://1bda747d82618511c6820f4c56e9d8cea97cb2f2183e123b16d10f3cff9aff93",
+				"dweb:/ipfs/QmNaXATmwTCYyFESzP4xMFkUpNUteVkzY6EWjFPoEyDEyG"
+			]
+		},
+		"anli/trace/goods.sol": {
+			"keccak256": "0xef1e7ceae280fd77bc9fb67e8980ae5a8104a79b2de15631158a78634c1dbb8b",
+			"urls": [
+				"bzz-raw://05aa0b11fc6c325a6086ebe7b99094eb6efe0eb3af5aae1b29185fb97109c87c",
+				"dweb:/ipfs/QmTCxNGtjcRVzSxJvHNnkfRGY1HFTRYZitp5abD6RrhryN"
+			]
+		},
+		"anli/trace/tracefactory.sol": {
+			"keccak256": "0x6d327e81b93408cfd886031f7ac44a4e84733fb474047d9ab76f43f1575bb216",
+			"urls": [
+				"bzz-raw://f7a1f2dca8007c442b5fde391540bdc4c15729ca1275202a72a292182793d102",
+				"dweb:/ipfs/Qmd6au5iZ8QCoou9Ld4ajKoSRKVnPhGQVAJpZC42c2gcNH"
+			]
+		}
+	},
+	"version": 1
+}

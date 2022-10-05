@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_category",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					}
+				],
+				"name": "NewGoods",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_remark",
+						"type": "string"
+					}
+				],
+				"name": "changeStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "createGoods",
+				"outputs": [
+					{
+						"internalType": "contract Goods",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "getGoods",
+				"outputs": [
+					{
+						"internalType": "contract Goods",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_goodsID",
+						"type": "uint256"
+					}
+				],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"trace/category.sol": "Category"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"trace/category.sol": {
+			"keccak256": "0x5b2ff456bc05c5fd0c293121c17cb3f51a3813c1226975b9bae85def68cb02e3",
+			"urls": [
+				"bzz-raw://638a46849cf8c6bc6e92357d829811ffe6ee908d8ddad7d3531a5e7f51950f62",
+				"dweb:/ipfs/Qmf6UC5GERGWrpyT3CJ8qDb23WpzBX73uJ4NgdAtcnLEFX"
+			]
+		},
+		"trace/goods.sol": {
+			"keccak256": "0x4d2c102fd381b2b58716bb4f6be8b5f35474791b8ee5f9f56b093cb6726c339d",
+			"urls": [
+				"bzz-raw://b02770a2781d5254e0695ac726fd50955e636c113865bc8cc678e581b90cbb06",
+				"dweb:/ipfs/QmYUpMFGXLU4xzcJfCXYZVZNXwrwD99pY8QLcNxPNCTnvj"
+			]
+		}
+	},
+	"version": 1
+}
